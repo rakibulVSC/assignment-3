@@ -153,7 +153,7 @@
             </div>
             <hr>
             <div
-                class="flex flex-col border-2 border-red-500 lg:flex-row lg:h-[50vh] space-y-2 lg:space-y-0 lg:space-x-2  lg:px-20 mt-6">
+                class="grid grid-cols-1 lg:grid-cols-2 gap-5   mt-6">
                 <!-- card 1 -->
                 <div class="card lg:w-94 lg:h-100 shadow-xl image-full flex-1 ">
                     <figure><img src="../Images/2.png" alt="Shoes" /></figure>
@@ -168,7 +168,7 @@
                     </div>
                 </div>
                 <!-- card 2 -->
-                <div class="card lg:w-94 lg:h-100 shadow-xl image-full flex-1 ">
+                <div class="card shadow-xl image-full  ">
                     <figure><img src="../Images/3.png" alt="Shoes" /></figure>
                     <div class="card-body lg:mt-40">
                         <h2 class="card-title text-3xl font-extrabold">Teenager Program</h2>
@@ -183,9 +183,10 @@
             </div>
 
             <!-- card 3  -->
-            <div
-                class="card  border-2 border-red-500 w-full lg:w-180 bg-base-100  shadow-xl image-full lg:px-20 mt-5 lg:mt-6">
-                <figure><img src="../Images/4.png" alt="Shoes" /></figure>
+            <div class="lg:h-[50vh]">
+                <div
+                class="card lg:h-[40vh]  w-full  bg-base-100  shadow-xl image-full  mt-5 lg:mt-6">
+                <figure><img class="w-full lg:h-[90vh]" src="../Images/4.png" alt="Shoes" /></figure>
                 <div class="card-body lg:mt-40">
                     <h2 class="card-title text-3xl font-extrabold">Professional Program</h2>
                     <p class="lg:w-80">She shook her head and sat down, sending a text to Darian.She shook her head and
@@ -196,19 +197,22 @@
                     </div>
                 </div>
             </div>
+            </div>
         </section>
         <!-- program section style end -->
 
         <!-- new product style start  -->
-        <section>
-            <h2></h2>
-            <p></p>
+        <section class="flex flex-col items-center lg:mt-5">
+            <h2 class="text-4xl font-extrabold text-[#131318]">Our New Products</h2>
+            <p class="text-lg font-semibold text-[#13131899] lg:w-96"> which is played either by 2 or 4 players. Tennis
+                Day is officially celebrated on 23rd February. </p>
         </section>
-        <section class="mt-3">
+        <section class="mt-3 grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4">
+
             <!-- card 1 -->
             <div class="card card-side bg-base-100 shadow-xl ">
                 <figure><img src="../Images/5.png" alt="Movie" /></figure>
-                <div class="card-body space-y-2">
+                <div class="card-body lg:space-y-2">
                     <div class="flex flex-row space-x-3">
                         <div class="flex flex-row items-center">
                             <img src="../Images/Frame.jpg" alt="">
@@ -223,17 +227,201 @@
                             <p>200</p>
                         </div>
                     </div>
-                    <div>
-                        <h2 class="card-title">World Cup Flags Football</h2>
-                        <p>She shook her head and sat down sending a text.</p>
+                    <div class="lg:space-y-2">
+                        <h2 class="card-title text-lg lg:text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
+                        <p class="text-base  lg:font-medium text-[#13131899]">She shook her head and sat down sending a
+                            text.</p>
                     </div>
-                    <div class="flex flex-row ">
+                    <div class="flex flex-row justify-between">
                         <div>
-                            <p>Price - $22.00</p>
+                            <p class=" lg:text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                        </div>
+                        <div class="flex flex-row items-center lg:space-x-1">
+                            <img src="../Images/shop.jpg" alt="">
+                            <p class="text-xs lg:text-base font-medium color-[#13131899]">Delivery Fee : Free</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2  -->
+            <div class="card card-side bg-base-100 shadow-xl ">
+                <figure><img src="../Images/6.png" alt="Movie" /></figure>
+                <div class="card-body lg:space-y-2">
+                    <div class="flex flex-row space-x-3">
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/Frame.jpg" alt="">
+                            <p>5.0</p>
                         </div>
                         <div class="flex flex-row items-center">
+                            <img src="../Images/eye.jpg" alt="">
+                            <p>20</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/love.jpg" alt="">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <div class="lg:space-y-2">
+                        <h2 class="card-title text-lg lg:text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
+                        <p class="text-base font-medium text-[#13131899]">She shook her head and sat down sending a
+                            text.</p>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <div>
+                            <p class="lg:text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                        </div>
+                        <div class="flex flex-row items-center lg:space-x-1">
                             <img src="../Images/shop.jpg" alt="">
-                            <p>Delivery Fee : Free</p>
+                            <p class="text-xs lg:text-base font-medium color-[#13131899]">Delivery Fee : Free</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- card 3  -->
+
+            <div class="card card-side bg-base-100 shadow-xl ">
+                <figure><img src="../Images/7.png" alt="Movie" /></figure>
+                <div class="card-body lg:space-y-2">
+                    <div class="flex flex-row space-x-3">
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/Frame.jpg" alt="">
+                            <p>5.0</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/eye.jpg" alt="">
+                            <p>20</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/love.jpg" alt="">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <div class="lg:space-y-2">
+                        <h2 class="card-title text-lg lg:text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
+                        <p class="text-base font-medium text-[#13131899]">She shook her head and sat down sending a
+                            text.</p>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <div>
+                            <p class=" lg:text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                        </div>
+                        <div class="flex flex-row items-center space-x-1">
+                            <img src="../Images/shop.jpg" alt="">
+                            <p class="text-xs lg:text-base font-medium color-[#13131899]">Delivery Fee : Free</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 4 -->
+
+            <div class="card card-side bg-base-100 shadow-xl ">
+                <figure><img src="../Images/8.png" alt="Movie" /></figure>
+                <div class="card-body lg:space-y-2">
+                    <div class="flex flex-row space-x-3">
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/Frame.jpg" alt="">
+                            <p>5.0</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/eye.jpg" alt="">
+                            <p>20</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/love.jpg" alt="">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <div class="lg:space-y-2">
+                        <h2 class="card-title text-lg lg:text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
+                        <p class="text-base font-medium text-[#13131899]">She shook her head and sat down sending a
+                            text.</p>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <div>
+                            <p class="lg:text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                        </div>
+                        <div class="flex flex-row items-center space-x-1">
+                            <img src="../Images/shop.jpg" alt="">
+                            <p class="text-xs lg:text-base font-medium color-[#13131899]">Delivery Fee : Free</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 5 -->
+
+            <div class="card card-side bg-base-100 shadow-xl ">
+                <figure><img src="../Images/9.png" alt="Movie" /></figure>
+                <div class="card-body lg:space-y-2">
+                    <div class="flex flex-row space-x-3">
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/Frame.jpg" alt="">
+                            <p>5.0</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/eye.jpg" alt="">
+                            <p>20</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/love.jpg" alt="">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <div class="lg:space-y-2">
+                        <h2 class="card-title text-lg lg:text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
+                        <p class="text-base font-medium text-[#13131899]">She shook her head and sat down sending a
+                            text.</p>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <div>
+                            <p class="lg:text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                        </div>
+                        <div class="flex flex-row items-center space-x-1">
+                            <img src="../Images/shop.jpg" alt="">
+                            <p class="text-xs lg:text-base font-medium color-[#13131899]">Delivery Fee : Free</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 6  -->
+
+            <div class="card card-side bg-base-100 shadow-xl ">
+                <figure><img src="../Images/10.png" alt="Movie" /></figure>
+                <div class="card-body lg:space-y-2">
+                    <div class="flex flex-row space-x-3">
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/Frame.jpg" alt="">
+                            <p>5.0</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/eye.jpg" alt="">
+                            <p>20</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <img src="../Images/love.jpg" alt="">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <div class="lg:space-y-2">
+                        <h2 class="card-title text-lg lg:text-xl font-extrabold text-[#131318]">World Cup Flags Football</h2>
+                        <p class="text-base font-medium text-[#13131899]">She shook her head and sat down sending a
+                            text.</p>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <div>
+                            <p class="lg:text-lg font-extrabold text-[#FF4240]">Price - $22.00</p>
+                        </div>
+                        <div class="flex flex-row items-center space-x-1">
+                            <img src="../Images/shop.jpg" alt="">
+                            <p class="text-xs lg:text-base font-medium color-[#13131899]">Delivery Fee : Free</p>
                         </div>
 
                     </div>
